@@ -11,9 +11,10 @@ import Foundation
 struct Qna {
     let qnumber: Int
     let question: String
-    let answer1: String
-    let answer2: String
-    let answer3: String
-    let answer4: String
+    let option1: String
+    let option2: String
+    let option3: String
+    let option4: String
+    let answer: String
     
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A02A8C421302380000AE8AE /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A02A8C321302380000AE8AE /* ScoreViewController.swift */; };
 		4A22A0BA212028120069730B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A22A0B9212028120069730B /* AppDelegate.swift */; };
 		4A22A0BC212028120069730B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A22A0BB212028120069730B /* ViewController.swift */; };
 		4A22A0BF212028120069730B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A22A0BD212028120069730B /* Main.storyboard */; };
@@ -17,7 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4A22A0B6212028120069730B /* 選擇題App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "選擇題App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A02A8C321302380000AE8AE /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		4A22A0B6212028120069730B /* 選擇題App-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "選擇題App-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A22A0B9212028120069730B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A22A0BB212028120069730B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4A22A0BE212028120069730B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -50,7 +52,7 @@
 		4A22A0B7212028120069730B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4A22A0B6212028120069730B /* 選擇題App.app */,
+				4A22A0B6212028120069730B /* 選擇題App-1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,6 +63,7 @@
 				4A22A0B9212028120069730B /* AppDelegate.swift */,
 				4A22A0BB212028120069730B /* ViewController.swift */,
 				4A22A0BD212028120069730B /* Main.storyboard */,
+				4A02A8C321302380000AE8AE /* ScoreViewController.swift */,
 				4A22A0CD212031830069730B /* QuestionStruct.swift */,
 				4A22A0CB21202FAA0069730B /* QuestionViewController.swift */,
 				4A22A0C0212028140069730B /* Assets.xcassets */,
@@ -73,9 +76,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4A22A0B5212028110069730B /* 選擇題App */ = {
+		4A22A0B5212028110069730B /* 選擇題App-1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4A22A0C8212028140069730B /* Build configuration list for PBXNativeTarget "選擇題App" */;
+			buildConfigurationList = 4A22A0C8212028140069730B /* Build configuration list for PBXNativeTarget "選擇題App-1" */;
 			buildPhases = (
 				4A22A0B2212028110069730B /* Sources */,
 				4A22A0B3212028110069730B /* Frameworks */,
@@ -85,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = "選擇題App";
+			name = "選擇題App-1";
 			productName = "選擇題App";
-			productReference = 4A22A0B6212028120069730B /* 選擇題App.app */;
+			productReference = 4A22A0B6212028120069730B /* 選擇題App-1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -118,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4A22A0B5212028110069730B /* 選擇題App */,
+				4A22A0B5212028110069730B /* 選擇題App-1 */,
 			);
 		};
 /* End PBXProject section */
@@ -143,6 +146,7 @@
 			files = (
 				4A22A0CE212031830069730B /* QuestionStruct.swift in Sources */,
 				4A22A0BC212028120069730B /* ViewController.swift in Sources */,
+				4A02A8C421302380000AE8AE /* ScoreViewController.swift in Sources */,
 				4A22A0BA212028120069730B /* AppDelegate.swift in Sources */,
 				4A22A0CC21202FAA0069730B /* QuestionViewController.swift in Sources */,
 			);
@@ -332,7 +336,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A22A0C8212028140069730B /* Build configuration list for PBXNativeTarget "選擇題App" */ = {
+		4A22A0C8212028140069730B /* Build configuration list for PBXNativeTarget "選擇題App-1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A22A0C9212028140069730B /* Debug */,
